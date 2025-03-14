@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root{
+    --heading-font: charm;
+    --paragraph-font: "times new roman";
+    --primary-color: #90d1ff   ;
+    --secondary-color: #ffd968 ;
+    --accent1-color: #ffaca1;
+    --accent2-color: #cd97ff;
+}
+body {
+    background-color:#90d1ff  ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+#wrapper{
+    width: 900px;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    border: solid 5px white;
+}
+header{
+    background: #cd97ff;
+    width: 100%;
+    height: 100px
+    
+}
+
+#logo{
+    width: 15%;
+    height: 100px;
+    float: left;
+    padding-top: 10px;
+}
+nav{
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+nav a{
+    color:#ffd968;
+    text-decoration: none;
+    padding: 10px 15px; 
+    border: 2px solid rgb(246, 219, 166); 
+    border-radius: 5px;
+    margin: 5px; 
+    display: inline-block; 
+}
+nav a:hover{
+    color: #90d1ff;
+}
+#hero{
+    background: rgb(140, 210, 194);
+    height: 150px;
+    width: 100%;
+    background: url(yarn.png);
+    background-size:cover;
+    background-position: center;
+
+}
+#face{
+    float: left;
+    padding: 10px 15px; 
+}
+main{
+    background: rgb(187, 245, 230);
+    min-height: 400px;
+    width: 100%;
+    
+}
+main p{
+    padding: 10px 10px 10px 10px;
+}
+h1{
+    padding: 10px 10px 10px 10px;
+    color: #ffaca1;
+}
+footer{
+    background: #cda1f6;
+    width: 100%;
+    height: 140px;
+
+}
+footer p{
+    padding: 20px 10px 10px 10px;
+}
+
+/* -------------------------------------------------- */
+#images{
+    background: rgb(187, 245, 230);
+    min-height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ---------------------------------------------------- */
+
+#part1{
+    background: rgb(187, 245, 230);
+    min-height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+#part2{
+    background: rgb(187, 245, 230);
+    min-height: 200px;
+    width: 100%;
+    padding-top: 20px;
+}
+#part3{
+    background: rgb(187, 245, 230);
+    min-height: 200px;
+    width: 100%;
+    padding-top: 20px;
+}
+#img1{
+    float: left;
+    padding: 10px 15px;
+}
+#img2{
+    float: right;
+    padding: 10px 15px;
+}
+#img3{
+    float: left;
+    padding: 10px 15px;
+}
