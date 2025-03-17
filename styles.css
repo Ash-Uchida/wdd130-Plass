@@ -15,18 +15,22 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
+    border: solid 20px rgb(217, 224, 255);
+    border-radius: 50px;
   }
 #wrapper{
     width: 900px;
     margin: auto;
     padding: 50px 50px 50px 50px;
-    border: solid 5px white;
+    border: solid 15px rgb(217, 224, 255);
+    border-radius: 50px;
 }
 header{
     background: #cd97ff;
     width: 100%;
-    height: 100px
-    
+    height: 100px;
+    border: solid 5px rgb(217, 224, 255);
+    border-radius: 50px;
 }
 
 #logo{
@@ -59,7 +63,8 @@ nav a:hover{
     background: url(yarn.png);
     background-size:cover;
     background-position: center;
-
+    border: solid 5px rgb(217, 224, 255);
+    border-radius: 50px;
 }
 #face{
     float: left;
@@ -69,7 +74,8 @@ main{
     background: rgb(187, 245, 230);
     min-height: 400px;
     width: 100%;
-    
+    border: solid 5px rgb(217, 224, 255);
+    border-radius: 50px;
 }
 main p{
     padding: 10px 10px 10px 10px;
@@ -82,7 +88,8 @@ footer{
     background: #cda1f6;
     width: 100%;
     height: 140px;
-
+    border: solid 5px rgb(217, 224, 255);
+    border-radius: 50px;
 }
 footer p{
     padding: 20px 10px 10px 10px;
