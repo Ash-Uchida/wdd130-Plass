@@ -74,6 +74,7 @@ main{
     background: rgb(187, 245, 230);
     min-height: 400px;
     width: 100%;
+    font-size:27px;
     border: solid 5px rgb(217, 224, 255);
     border-radius: 50px;
 }
