@@ -60,7 +60,7 @@ nav a:hover{
     background: rgb(140, 210, 194);
     height: 150px;
     width: 100%;
-    background: URL(/images/yarn.png);
+    background: URL(images/yarn.png);
     background-size:cover;
     background-position: center;
     border: solid 5px rgb(217, 224, 255);
