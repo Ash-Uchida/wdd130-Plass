@@ -1,5 +1,6 @@
 /* Reset and Base Styles */
 /* Reset and Base Styles */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 :root {
     --primary-color: #ffaca1 ;
     --primary-dark: #ffd968;
@@ -20,6 +21,9 @@
     --radius-md: 8px;
     --radius-lg: 12px;
     --transition: all 0.3s ease;
+
+    --heading-font: charm;
+    --paragraph-font: "times new roman";
   }
   
   * {
@@ -33,7 +37,8 @@
   }
   
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--paragraph-font);
+    /* ------------------------------------------------------------------------------------- */
     line-height: 1.6;
     color: var(--text-dark);
     background-color: var(--gray-light);
@@ -58,7 +63,8 @@
   }
   
   h1, h2, h3, h4, h5 {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--heading-font);
+    /* ------------------------------------------------------------------------------------------------- */
     font-weight: 700;
     line-height: 1.3;
   }
@@ -80,7 +86,6 @@
   a {
     text-decoration: none;
     color: inherit;
-    transition: var(--transition);
   }
   
   img{
@@ -226,8 +231,6 @@
     padding: 12px 28px;
     border-radius: 50px;
     font-weight: 600;
-    transition: var(--transition);
-    text-align: center;
     font-size: 1rem;
     cursor: pointer;
   }
@@ -245,9 +248,9 @@
   .cta-button.primary:hover {
     background-color: var(--accent-dark);
     transform: translateY(-3px);
-    box-shadow: var(--shadow-md);
+    
   }
-  
+
   .cta-button.secondary {
     background-color: transparent;
     color: var(--text-light);
@@ -299,7 +302,6 @@
   .about-image {
     border-radius: var(--radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow-lg);
   }
   
   /* Call to Action Section */
@@ -419,8 +421,6 @@
     justify-content: center;
     opacity: 0;
     visibility: hidden;
-    transition: var(--transition);
-    box-shadow: var(--shadow-md);
     z-index: 99;
   }
   
@@ -434,6 +434,50 @@
     visibility: visible;
   }
   
+/* -------------------------------------------------- */
+#images{
+    background: rgb(187, 245, 230);
+    min-height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ---------------------------------------------------- */
+
+#part1{
+    background: rgb(187, 245, 230);
+    min-height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+#part2{
+    background: rgb(187, 245, 230);
+    min-height: 200px;
+    width: 100%;
+    padding-top: 20px;
+}
+#part3{
+    background: rgb(187, 245, 230);
+    min-height: 200px;
+    width: 100%;
+    padding-top: 20px;
+}
+#img1{
+    float: left;
+    padding: 10px 15px;
+}
+#img2{
+    float: right;
+    padding: 10px 15px;
+}
+#img3{
+    float: left;
+    padding: 10px 15px;
+}
 
 
 /* -------------------------------------------------- */
