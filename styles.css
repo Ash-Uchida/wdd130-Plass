@@ -7,7 +7,7 @@
     --primary-light: #90d1ff;
     --primary-pale: #cd97ff;
     --accent-color: #ffaca1;
-    --accent-dark: #ffd968;
+    --accent-dark: #ffaca1;
     --text-dark: #263238;
     --text-light: #D9E0FF;
     --text-muted: #757575;
@@ -241,7 +241,7 @@
   }
   
   .cta-button.primary {
-    background-color: var(--accent-color);
+    background-color: var(--primary-dark);
     color: var(--text-dark);
   }
   
