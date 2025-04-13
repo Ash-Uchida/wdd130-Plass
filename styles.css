@@ -524,5 +524,21 @@
     padding: 10px 15px;
 }
 
+/* Page 1 Specific Styles */
+#page1 #images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  text-align: center; /* centers text inside each grid item */
+}
+
+#page1 #images > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers content horizontally */
+  justify-content: center; /* centers content vertically */
+}
+
 
 /*Page 2  styles*/

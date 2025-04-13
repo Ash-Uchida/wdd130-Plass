@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD130 | Plass</title>
-    <link rel="stylesheet" href="styles.css"> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WDD130 | Plass</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body id="page1">
+  <header>
     <div class="container">
-        <header>
-            <div id="logo">
-                <img src="/images/logo.png" width="73" alt="logo">
-            </div>
-            <nav>
-                <ul>
-                    <a href="index.html">Home</a>
-                    <a href="page1.html">Page1</a>
-                    <a href="page2.html">Page2</a>
-                </ul>
-            </nav>
-        </header>
-        <div id="images">
-            <div id="im1"><img src="/images/hotpads.jpg" width="173" alt="hot pads"></div>
-            <div id="im2"><img src="/images/crochet-christmas-decorations.jpg" width="173" alt="christmas ornaments"></div>
-            <div id="im3"><img src="/images/stuffed-animal.jpg" width="173" alt="stuffed animals"></div>
-            <p>Hot Pads</p>
-            <p>Christmas Ornaments</p>
-            <p>Stuffed Animals</p>
-        </div>
-        
-        <footer>
-            <p>Email: adelaide.e.plass@icloud.com  |  Phone number: (208) 243-5830</p>
-            <p>&copy; 2023 WDD130 | Plass</p>
-            
-        </footer>
+      <div class="logo">
+        <img src="/images/logo.png" alt="logo" />
+        <span class="site-name">My Crochet Projects</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="page1.html" class="active">Page1</a>
+        <a href="page2.html">Page2</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section id="images">
+      <!-- Top row: Images -->
+      <div id="im1"><img src="/images/hotpads.jpg" width="173" alt="hot pads"></div>
+      <div id="im2"><img src="/images/crochet-christmas-decorations.jpg" width="173" alt="christmas ornaments"></div>
+      <div id="im3"><img src="/images/stuffed-animal.jpg" width="173" alt="stuffed animals"></div>
+
+      <!-- Bottom row: Text blocks -->
+      <div>
+        <p>My favorite projects so far have been the ice cream cows and the D&D characters.</p>
+      </div>
+      <div>
+        <p>I asked all of my family members for their favorite ice cream flavors and was able to create a different cow for each of them.</p>
+        <p>The flavors that I have experimented with so far are organ black cherry, cookie dough, cookies and cream, mint chocolate chip, sprinkles, and a huckleberry.</p>
+      </div>
+      <div>
+        <p>Just for fun I found a few patterns of animals dressed up as D&D classes that I can make for fun. So far, I have finished both the dragon knight and the wizard crow. I am currently working on a raccoon rogue and have many more planned for the future.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p class="footer-text">Email: adelaide.e.plass@icloud.com | Phone number: (208) 243-5830</p>
+      <p class="footer-bottom">&copy; 2023 WDD130 | Plass</p>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top">&#8679;</a>
 </body>
 </html>
